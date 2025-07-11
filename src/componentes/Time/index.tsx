@@ -1,3 +1,4 @@
+import React from 'react'
 import { IColaborador } from '../../compartilhado/interface/IColaborador'
 import Colaborador from '../Colaborador'
 import './Time.css'
@@ -26,7 +27,7 @@ const Time = (props: TimeProps) => {
                 /> )}
             </div>
         </section> 
-        : ''
+        : <React.Fragment></React.Fragment>
     )
 }
 
